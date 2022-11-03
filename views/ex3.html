@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 3 - Scott Zuvich</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <a href="/">Home</a>
+  <h1>Sample Form</h1>
+  <form name="article" id="article" action="/articles" method="post">
+    <p><label for="title">Title:<br /><input type="text" name="title" id="title" /></label></p>
+    <p><label for="email">Content:<br /><textarea name="content" id="content"></textarea></label></p>
+    <input type="submit" name="submit" id="submit" value="Submit" />
+    <input type="reset" name="cancel" id="cancel" value="Cancel" />
+  </form>
+  <div id="output"></div>
+  <script src="../ex3.js"></script>
+</body>
+</html>
